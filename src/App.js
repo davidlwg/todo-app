@@ -9,6 +9,8 @@ import { useState } from 'react';
 - enter keyboard press
 */
 function App() {
+  // array of toDos. When new todo button is clicked, we 
+  // push the text into the array and useState will automatically update the view
   const [toDos, setToDos] = useState([])
   const [isemptyText, setIsEmptyText] = useState(true)
 
